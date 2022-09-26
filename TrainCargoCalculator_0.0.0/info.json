@@ -1,0 +1,9 @@
+{
+    "name": "TrainCargoCalculator",
+    "version": "0.0.1",
+    "title": "Train Cargo Calculator",
+    "author": "Johannes_00",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"],
+    "description": "This mod let's you calculate the maximum payload a train can hold for a specific item or fluid."
+}
