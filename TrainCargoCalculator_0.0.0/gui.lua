@@ -7,7 +7,7 @@ function build_gui(player_index)
     player = game.get_player(player_index)
 
     -- check if player is valid, else exit
-    if type(player) ~= "table" or not player.valid then
+    if not player.valid then
         return nil, "TCC-build_gui - Argument #1: expected a player, parsed nil"
     end
     
